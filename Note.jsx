@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Note(){
+function Note(){
   return(
     <div className = "note">
       <h1>JavaScript and ReactJS</h1>
@@ -8,3 +8,4 @@ export default function Note(){
     </div>
   );
 }
+export default Note;
